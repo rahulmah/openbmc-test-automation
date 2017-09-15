@@ -1015,7 +1015,7 @@ Configure Initial Settings
 Install Debug Tarball On BMC
     [Documentation]  Copy the debug tar file to BMC and install.
     [Arguments]  ${tarball_file_path}=${EXECDIR}/obmc-phosphor-debug-tarball-witherspoon.tar.xz
-    ...          ${targ_tarball_dir_path}=/home/root/tarball/
+    ...          ${targ_tarball_dir_path}=/usr/local/share/pnor/tarball/
 
     # Description of arguments:
     # tarball_file_path      Path of the debug tarball file.
